@@ -1,0 +1,16 @@
+{
+  "name": "keycloak",
+  "version": "1.0-beta4-pre",
+  "main": "dist/keycloak.js",
+  "ignore": [
+    "**/.*"
+  ],
+  "description": "Keycloak adapter",
+  "keywords": [
+    "keycloak",
+    "sso",
+    "oauth",
+    "oauth2",
+    "authentication"
+  ]
+}
