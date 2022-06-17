@@ -18,3 +18,9 @@ If you've found a security vulnerability, please look at the [instructions on ho
 ## Contributions
 
 To provide a contribution send a PR to:	https://github.com/keycloak/keycloak/blob/master/adapters/oidc/js/src/main/resources/keycloak.js.
+
+## UGLIFY
+
+```
+uglifyjs keycloak.js -cmo keycloak.min.js --source-map url=keycloak.min.js.map
+```
